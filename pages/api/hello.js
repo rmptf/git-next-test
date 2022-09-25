@@ -1,5 +1,11 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
 export default function handler(req, res) {
-  res.status(200).json({ name: 'joong doe', name0: "asdfasdf" , name1: "432152"})
+  res.status(200).json(newArray)
 }
+
+
+const newArray = {
+  user1: 'Tommy'
+}
+
