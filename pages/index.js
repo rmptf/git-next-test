@@ -1,18 +1,16 @@
 export default function Home() {
 
-  const dataMain = async () => {
-    const response = await fetch('/api/hello')
-    const data = await response.json()
-    console.log(data)
-  }
-
-  const people = dataMain()
-
-  const animals = ["dog ","cat"]
+  // const dataMain = async () => {
+  //   const response = await fetch('/api/get-data')
+  //   const data = await response.json()
+  //   // console.log(data)
+  //   return data
+  // }
+  // dataMain()
 
   return (
     <div>
-      <h1>New Project Hello User One {animals}</h1>
+      <h1>New Project Hello User</h1>
     </div>
   )
 }
